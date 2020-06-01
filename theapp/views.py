@@ -11,4 +11,4 @@ def intro(requests):
     return render(requests, 'intro.html')
 
 def index(requests):
-    return render(requests. 'index.html')
+    return render(requests, 'index.html')
