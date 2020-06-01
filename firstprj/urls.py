@@ -22,5 +22,5 @@ urlpatterns = [
     path('', views.main, name='main'), #main
     path('intro/', views.intro, name='intro'),
     path('gallery/', views.photos, name='photos'),
-    path('index/', views.index , name='index'),
+    path('index/', views.index , name='index'), #과제
 ]
