@@ -22,4 +22,5 @@ urlpatterns = [
     path('', views.main, name='main'), #main
     path('intro/', views.intro, name='intro'),
     path('gallery/', views.photos, name='photos'),
+    path('help/', views.help, name='help')
 ]
