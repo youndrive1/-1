@@ -20,7 +20,7 @@ from theapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.main, name='main'), #main
-    path('intro/', views.intro, name='intro'),
-    path('gallery/', views.photos, name='photos'),
+    path('intro/', views.intro, name='intro'), #intro
+    path('gallery/', views.photos, name='photos'), #photos
     path('index/', views.index , name='index'), #과제
 ]
